@@ -1,0 +1,30 @@
+.DataForm-datePicker {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.DataForm-submit.DataForm-submit {
+  display: block !important;
+  margin: 0 10px !important;
+}
+
+.DataForm-form-container {
+  padding-bottom: 30px;
+}
+
+.DataForm-main-container {
+  width: 560px;
+  margin: 0 auto;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .DataForm-form-container {
+    padding-bottom: 50px;
+  }
+
+  .DataForm-main-container {
+    width: 300px;
+    margin: 0 auto;
+  }
+}
